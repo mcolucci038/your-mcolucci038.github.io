@@ -27,10 +27,26 @@
               
               <fieldset>
                   <legend> Would you recommend my channel to a friend?</legend>
-                  <input type="radio" name="action" checked id="definietly" value="definitely" /><label for="definitely">Definitely</label><br />
-                  <input type="radio" name="action" id="maybe" value="maybe" /><label for="maybe">Maybe</label><br />
-                  <input type="radio" name="action" id="not-sure" value="not-sure" /><label for="not-sure">Not sure</label><br />
+                  
+                  <input type="radio" name="recommend" checked id="definietly" value="definitely" /><label for="definitely">Definitely</label><br />
+                  
+                  <input type="radio" name="recommend" id="maybe" value="maybe" /><label for="maybe">Maybe</label><br />
+                  
+                  <input type="radio" name="recommend" id="not-sure" value="not-sure" /><label for="not-sure">Not sure</label><br />
               </fieldset>
+              
+              <p>What would you like to see improved?</p>
+              <input type="checkbox" id="video-length" name="video-length" value="video-length">
+              <label for="video-length">Video Length</label><br>
+              <input type="checkbox" id="content-quality" name="content-quality" value="content-quality">
+              <label for="content-quality">Content quality</label><br>
+              <input type="checkbox" id="more-video" name="more-video" value="more-video">
+              <label for="more videos">Add more videos</label><br>
+              
+              <label for="comment">Any comments or suggestions?</label>
+              <textarea rows="4" cols="50" id="comment">Enter your comment here...</textarea>
+              
+              <button type="submit" id="submit">Submit</button>
               
           </form>
       </div>
