@@ -24,6 +24,14 @@
                <option value="prefer-not-to-say">Prefer not to say</option>
                <option value="other">Other</option>
               </select>
+              
+              <fieldset>
+                  <legend> Would you recommend my channel to a friend?</legend>
+                  <input type="radio" name="action" checked id="definietly" value="definitely" /><label for="definitely">Definitely</label><br />
+                  <input type="radio" name="action" id="maybe" value="maybe" /><label for="maybe">Maybe</label><br />
+                  <input type="radio" name="action" id="not-sure" value="not-sure" /><label for="not-sure">Not sure</label><br />
+              </fieldset>
+              
           </form>
       </div>
     </div>
